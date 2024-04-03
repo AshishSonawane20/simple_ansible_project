@@ -1,6 +1,6 @@
 ---
 - name: Example
   hosts: test_hosts.local
-  remote_user: "{{ remote_user }}"
+  # remote_user: "{{ remote_user }}"
   roles:
     - example-role
