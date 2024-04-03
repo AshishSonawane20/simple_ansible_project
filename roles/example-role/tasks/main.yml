@@ -4,6 +4,6 @@
     command: echo ~
     register: REMOTE_USER_HOME
 
-  - name: Print user's home directory
-    debug:
-      var: REMOTE_USER_HOME.stdout
+ # - name: Print user's home directory
+ #   debug:
+ #     var: REMOTE_USER_HOME.stdout
